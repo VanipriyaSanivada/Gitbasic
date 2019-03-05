@@ -59,11 +59,13 @@ git revert HEAD --> will revert the last commit from local
 
 git tag -a <tag name>
 
-For remove or delete
+ --- For remove or delete ---
 
 git remote rm <remote alias name>
 
 git branch -d <branch name>
 
 git tag -d <tag name>
+
+
 
