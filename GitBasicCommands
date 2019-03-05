@@ -1,0 +1,69 @@
+git --version
+
+git init ---> For creating the local empty repository
+ 
+git config --global user.name <username>
+
+git config --global user.email <email of github repo>
+
+git config --list  ---> will diplay the list of users
+
+git status --> will displa the status of branch
+   * --> indicates where we are
+
+git clone <remote url> ---> clone remote repo to your local
+
+git add . --> moving files to stagging area
+
+git commit -m "commit message" --> commiting the files to local repo
+
+git remote add <aliasname> <remoteurl> add the remote repo to local
+
+git remote ---> will show the remote list
+
+git branch --> will display the branches in local
+
+git branch <branchname> --> for creating new branch
+
+git checkout <branch name> --> will take u into that branch
+
+git push origin master  --> for pushing local repo to remote repo
+
+git pull origin master  ---> updating the working directory 
+
+git fetch + git merge = git pull
+
+git fetch --> will fetch the files from remote repo to local repo
+
+git merge origin/master --> will be updated the ur working directory 
+
+git diff HEAD --> will diplay the changes in the last commit
+
+git rebase --> also used for integrating the branches but rebase will give linear commits of all
+
+git stash ---> you are working on some project ...u not yet committed changes but you want to switch other branch with out commiting the present wotking branch... for that just stash
+               your working copy and can move to 
+to push new stash into your stack. git stash
+
+git stash list ---> will give the stashes you have stored
+
+git stash aplly --> will aplly the most recent satsh
+ 
+git stash drop --> will remove the satsh
+
+git stash pop --> will apply and then remove
+
+git reset <filename> will move the files from staging are to working directory
+
+git revert HEAD --> will revert the last commit from local
+
+git tag -a <tag name>
+
+For remove or delete
+
+git remote rm <remote alias name>
+
+git branch -d <branch name>
+
+git tag -d <tag name>
+
